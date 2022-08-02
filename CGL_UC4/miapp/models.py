@@ -8,4 +8,4 @@ class Estudiante(models.Model):
     apemat = models.CharField(max_length=80)
     direccion = models.CharField(max_length=100)
     telefono = models.CharField(max_length=9)
-    telefono = models.CharField(max_length=9)
+    estado = models.CharField(max_length=1)
